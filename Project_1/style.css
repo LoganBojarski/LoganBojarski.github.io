@@ -1,5 +1,24 @@
 body {
     background-image:url(images/opmap.png);
-    background-color: #1b1b1b;
-    background-position: center;
+    background-color: #2762A8;
+    background-position: auto;
+    background-size: 100%;
    }
+
+   .navbar {
+    background-color: #2762A8;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 5px 10px 35px;
+    text-decoration: none;
+    font-size: 17px;
+  }
