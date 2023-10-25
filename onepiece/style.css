@@ -12,12 +12,12 @@ body {
 /* index page images*/
 .boat {
   position: relative;
-  bottom: 0px;
+  bottom: 20%;
 }
 
 .frontwave {
   position: fixed;
-  bottom:0px;
+  bottom:0;
 }
   .merry {
     position: fixed;
