@@ -1,13 +1,30 @@
+
+
+
 body {
     background-image:url(images/opmap.png);
     background-color: #2762A8;
     background-position: auto;
     background-size: 100%;
-   }
+   
+  }
 
+  .frontwave {
+  position: absolute;
+  bottom:-100px;
+}
+  .merry {
+    position: absolute;
+   bottom: 10px;
+  }
+  .backwave::after {
+    position: absolute;
+    bottom:-250px;
+  }
+ 
    .navbar {
     background-color: #2762A8;
-    overflow: hidden;
+    overflow: repeat;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -22,3 +39,4 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
+  
