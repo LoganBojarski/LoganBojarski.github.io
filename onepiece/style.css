@@ -12,7 +12,7 @@ body {
 /* index page images*/
   .frontwave {
   position: fixed;
-  bottom:-100px;
+  bottom:0px;
 }
   .merry {
     position: fixed;
