@@ -1,0 +1,21 @@
+$('.l-off').mouseenter(
+  function(){
+    $('.l-hover').removeClass('hide')
+  }
+)
+$('.l-off').mouseleave(
+  function(){
+    $('.l-hover').addClass('hide')
+  }
+)
+
+$('.z-off').mouseenter(
+  function(){
+    $('.z-hover').removeClass('hide')
+  }
+)
+$('.z-off').mouseleave(
+  function(){
+    $('.z-hover').addClass('hide')
+  }
+)

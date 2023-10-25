@@ -13,6 +13,7 @@ body {
 .boat {
   position: relative;
   bottom: 20%;
+  z-index: -1px;
 }
 
 .frontwave {
@@ -32,7 +33,14 @@ body {
     position:fixed;
     right:10px;
   }
-
+.hovers {
+  z-index:999;
+  position: absolute;
+  bottom:228px;
+  left:0;
+  right:0;
+  width:100%;
+}
 /* nav bar*/
    .navbar {
     background-color: #2762A8;
@@ -40,15 +48,18 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 20%;
+    display:flex;
+    justify-content:space-between
+
   }
   .navbar a {
-    float: left;
     display: block;
     padding: 5px 25px 5px 25px;
   }
   
-
+.hide {
+  display:none;
+}
 
 /* */
 /* */
