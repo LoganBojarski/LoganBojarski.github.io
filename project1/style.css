@@ -25,7 +25,7 @@ body {
    .navbar {
     background-color: #2762A8;
     overflow: repeat;
-    position: fixed;
+    position: center;
     bottom: 0;
     width: 100%;
     height: 20%;
