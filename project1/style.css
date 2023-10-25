@@ -17,9 +17,9 @@ body {
     position: absolute;
    bottom: 10px;
   }
-  .backwave::after {
+  .backwave {
     position: absolute;
-    bottom:-250px;
+    bottom:100px;
   }
  
    .navbar {
