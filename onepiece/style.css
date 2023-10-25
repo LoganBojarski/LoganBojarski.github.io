@@ -3,45 +3,35 @@
 /* backgoround*/
 body {
     background-image:url(images/opmap.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: right center;
     background-color: #2762A8;
   }
-/*font */
-
-  @font-face {
-    font-family: opfont;
-    src: url(images/opfont.ttf);
-  }
-  
-  div {
-    font-family: opfont;
-  }
 
 /* index page images*/
   .frontwave {
-  position: absolute;
+  position: fixed;
   bottom:-100px;
 }
   .merry {
-    position: absolute;
+    position: fixed;
    bottom: 10px;
   }
   .backwave {
-    position: absolute;
+    position: fixed;
     bottom:100px;
   }
   
   .title {
-    position:absolute;
+    position:fixed;
     right:10px;
   }
 
 /* nav bar*/
    .navbar {
     background-color: #2762A8;
-    overflow: repeat;
+    overflow: no-repeat;
     position: fixed;
     bottom: 0;
     width: 100%;
