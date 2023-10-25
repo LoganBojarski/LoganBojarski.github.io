@@ -1,6 +1,6 @@
 
 
-
+/* backgoround*/
 body {
     background-image:url(images/opmap.png);
     background-repeat: no-repeat;
@@ -9,6 +9,8 @@ body {
     background-color: #2762A8;
   }
 
+
+/* index page images*/
   .frontwave {
   position: absolute;
   bottom:-100px;
@@ -21,7 +23,13 @@ body {
     position: absolute;
     bottom:100px;
   }
- 
+  
+  .title {
+    position:absolute;
+    right:20px;
+  }
+
+/* nav bar*/
    .navbar {
     background-color: #2762A8;
     overflow: repeat;
@@ -40,3 +48,7 @@ body {
     font-size: 17px;
   }
   
+
+
+/* */
+/* */
