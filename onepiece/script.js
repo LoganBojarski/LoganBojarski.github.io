@@ -19,3 +19,25 @@ $('.z-off').mouseleave(
     $('.z-hover').addClass('hide')
   }
 )
+
+$('.n-off').mouseenter(
+  function(){
+    $('.n-hover').removeClass('hide')
+  }
+)
+$('.n-off').mouseleave(
+  function(){
+    $('.n-hover').addClass('hide')
+  }
+)
+
+$('.u-off').mouseenter(
+  function(){
+    $('.u-hover').removeClass('hide')
+  }
+)
+$('.u-off').mouseleave(
+  function(){
+    $('.u-hover').addClass('hide')
+  }
+)
