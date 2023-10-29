@@ -12,7 +12,7 @@ body {
 .textl{
   width: 85%;
   background-color:#FFCBCB;
-  border: red 100px;
+  border: 15px solid red;
   padding:25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -21,7 +21,7 @@ body {
 .textn{
   width: 85%;
   background-color:#FFD087;
-  border: orange 100px;
+  border:solid orange 15px;
   padding:25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -30,7 +30,7 @@ body {
 .textu{
   width: 85%;
   background-color:#FFF8BD;
-  border: yellow 100px;
+  border:solid #FAD824 15px;
   padding:25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -39,7 +39,7 @@ body {
 .textz{
   width: 85%;
   background-color:#E3FFC5;
-  border: green 100px;
+  border:solid green 15px;
   padding:25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
