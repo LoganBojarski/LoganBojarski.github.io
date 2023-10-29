@@ -9,6 +9,42 @@ body {
     background-color: #2762A8;
   }
 
+.textl{
+  width: 85%;
+  background-color:#FFCBCB;
+  border: red 100px;
+  padding:25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.textn{
+  width: 85%;
+  background-color:#FFD087;
+  border: orange 100px;
+  padding:25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.textu{
+  width: 85%;
+  background-color:#FFF8BD;
+  border: yellow 100px;
+  padding:25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.textz{
+  width: 85%;
+  background-color:#E3FFC5;
+  border: green 100px;
+  padding:25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
 /* index page images*/
 .boat {
   position: relative;
@@ -36,6 +72,17 @@ body {
   .title {
     position:fixed;
     right:10px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 /* hovers */
 
