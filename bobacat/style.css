@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible; /* Hide horizontal scrollbar */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+  cursor: visible; 
+  
+}
+
+.container {
+  display: flex;
+  width: 500%; /* Five times the width of the viewport to accommodate 5 pages */
+  transition: transform 0.5s ease;
+}
+.container3{
+    display: flex;
+    width: 300%; /* Five times the width of the viewport to accommodate 5 pages */
+    transition: transform 0.5s ease;
+}
+.page {
+  width: 100%; /* Each page takes up 20% of the viewport width */
+  float: left;
+  padding: 20px;
+}
+.oval-button {
+    background-color: #6A9E6F; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Adjust the border-radius to create an oval shape */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .oval-button:hover{
+    background-color:#49734D
+    }
+.nav-dropdown {
+  position: fixed;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C9EECD;
+  min-width: 160px;
+  box-shadow: 0 8px 16px #49734D(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #443120;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #49734D;
+}
+
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.content-col {
+  /* Styles for content column */
+}
+
+.image-col {
+  /* Styles for image column */
+}
+
+/* Add more styling as needed */
+
+/* Circle cursor */
+.circle-cursor {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #A3D4A8;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: calc(33.33% - 20px); /* Adjust the width as needed, considering the margin */
+  margin: 25px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: add rounded corners to the images */
+}
+
+.column p {
+  text-align: center;
+  margin-top: 10px;
+}
