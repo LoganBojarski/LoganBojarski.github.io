@@ -10,12 +10,17 @@ body {
   overflow-x: visible; /* Hide horizontal scrollbar */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
   cursor: visible; 
+  font-size: 30px;
+
   
 }
+h1 {text-align: center;
+  font-size: 60px}
 
 img {
     width:100%;
 }
+
 .container {
   display: flex;
   transition: transform 0.5s ease;
@@ -57,6 +62,34 @@ img {
   .oval-button:hover{
     background-color:#49734D
     }
+   
+  .button-container {
+    display: flex;
+    flex-direction: column;
+      align-items: center; /* Center horizontally */
+      justify-content: center; /* Center vertically */
+      gap: calc(100vh / 4 - 100px); /* Adjusted gap based on screen height */
+    }
+
+    .button {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background-color: #A3D4A8; /* Green background color */
+      color: #443120; /* White text color */
+      text-align: center;
+      line-height: 20px;
+      text-decoration: none;
+      display: flex;
+      align-items: center; /* Center text vertically */
+      justify-content: center; /* Center text horizontally */
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #6A9E6F; /* Dark green background color on hover */
+    }
+    
 .nav-dropdown {
   position: fixed;
   display: inline-block;
