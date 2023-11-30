@@ -1,3 +1,9 @@
+* {box-sizing: border-box;}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
   margin: 0;
   padding: 0;
@@ -7,19 +13,36 @@ body {
   
 }
 
+img {
+    width:100%;
+}
 .container {
   display: flex;
-  width: 500%; /* Five times the width of the viewport to accommodate 5 pages */
   transition: transform 0.5s ease;
 }
 .container3{
+    width:300vw;
+    margin-top:60px;
     display: flex;
-    width: 300%; /* Five times the width of the viewport to accommodate 5 pages */
     transition: transform 0.5s ease;
+}
+.container3 div {
+    flex:100vw;
+}
+.left-column {
+    padding:80px;
+}
+.right-column {
+    position:relative;
+}
+.back {
+    width:40px;
+    position:absolute;
+    bottom: 50%;
+    right:20px;
 }
 .page {
   width: 100%; /* Each page takes up 20% of the viewport width */
-  float: left;
   padding: 20px;
 }
 .oval-button {
@@ -37,7 +60,8 @@ body {
 .nav-dropdown {
   position: fixed;
   display: inline-block;
-
+    top:10px;
+    left:20px;
 }
 
 .dropdown-content {
@@ -92,13 +116,10 @@ body {
 }
 
 .column {
-  width: calc(33.33% - 20px); /* Adjust the width as needed, considering the margin */
-  margin: 25px;
 }
 
 .column img {
   width: 100%;
-  height: auto;
   border-radius: 8px; /* Optional: add rounded corners to the images */
 }
 
